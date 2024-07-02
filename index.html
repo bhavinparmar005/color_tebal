@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table of color</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="frist_row">
+      <div class="box" id="box_1">ivory</div>
+      <div class="box" id="box_2">yellow</div>
+      <div class="box" id="box_3">gold</div>
+      <div class="box" id="box_4">orange</div>
+      <div class="box" id="box_5">coral</div>
+      <div class="box" id="box_6">tometo</div>
+      <div class="box" id="box_7">red</div>
+      <div class="box" id="box_8">maroon</div>
+    </div>
+
+    <div class="frist_row">
+      <div class="box" id="box_2_1">lovender</div>
+      <div class="box" id="box_2_2">pink</div>
+      <div class="box" id="box_2_3">deep pink</div>
+      <div class="box" id="box_2_4">plum</div>
+      <div class="box" id="box_2_5">violet</div>
+      <div class="box" id="box_2_6">fuchsia</div>
+      <div class="box" id="box_2_7">purple</div>
+      <div class="box" id="box_2_8">indigo</div>
+    </div>
+
+    <div class="frist_row">
+      <div class="box" id="box_3_1">lime</div>
+      <div class="box" id="box_3_2">green</div>
+      <div class="box" id="box_3_3">olive</div>
+      <div class="box" id="box_3_4">aqua</div>
+      <div class="box" id="box_3_5">skyblue</div>
+      <div class="box" id="box_3_6">iteal</div>
+      <div class="box" id="box_3_7">blue</div>
+      <div class="box" id="box_3_8">navy</div>
+    </div>
+    <div class="frist_row">
+      <div class="box" id="box_4_1">white</div>
+      <div class="box" id="box_4_2">silver</div>
+      <div class="box" id="box_4_3">grey</div>
+      <div class="box" id="box_4_4">black</div>
+      <div class="box" id="box_4_5">wheat</div>
+      <div class="box" id="box_4_6">tan</div>
+      <div class="box" id="box_4_7">chocolate</div>
+      <div class="box" id="box_4_8">saddlebrown</div>
+    </div>
+
+    <script>
+      // jQuery
+      $(document).ready(function () {
+
+        // row 1
+        $("#box_1").click(function () {
+            $("#box_1").toggleClass("ivory");
+        });
+
+        $("#box_2").click(function () {
+            $("#box_2").toggleClass("yellow");
+        });
+
+        $("#box_3").click(function () {
+            $("#box_3").toggleClass("gold");
+        });
+
+        $("#box_4").click(function () {
+            $("#box_4").toggleClass("orange");
+        });
+
+        $("#box_5").click(function () {
+            $("#box_5").toggleClass("coral");
+        });
+
+        $("#box_6").click(function () {
+            $("#box_6").toggleClass("tometo");
+        });
+        $("#box_7").click(function () {
+            $("#box_7").toggleClass("red");
+        });
+        $("#box_8").click(function () {
+            $("#box_8").toggleClass("maroon");
+        });
+        
+        
+
+        
+
+        
+        // row 2
+
+        $("#box_2_1").click(function () {
+            $("#box_2_1").toggleClass("lovender");
+        });
+        $("#box_2_2").click(function () {
+            $("#box_2_2").toggleClass("pink");
+        });
+        $("#box_2_3").click(function () {
+            $("#box_2_3").toggleClass("deep_pink");
+        });
+        $("#box_2_4").click(function () {
+            $("#box_2_4").toggleClass("plum");
+        });
+        $("#box_2_5").click(function () {
+            $("#box_2_5").toggleClass("violet");
+        });
+       
+        $("#box_2_6").click(function () {
+            $("#box_2_6").toggleClass("fuchasia");
+        });
+        $("#box_2_7").click(function () {
+            $("#box_2_7").toggleClass("purple");
+        });
+
+        $("#box_2_8").click(function () {
+            $("#box_2_8").toggleClass("indigo");
+        });
+        // row 3
+        $("#box_3_1").click(function () {
+            $("#box_3_1").toggleClass("lime");
+        });
+
+        $("#box_3_2").click(function () {
+            $("#box_3_2").toggleClass("green");
+        });
+
+        $("#box_3_3").click(function () {
+            $("#box_3_3").toggleClass("olive");
+        });
+
+        $("#box_3_4").click(function () {
+            $("#box_3_4").toggleClass("aqua");
+        });
+
+        $("#box_3_5").click(function () {
+            $("#box_3_5").toggleClass("skyblue");
+        });
+
+        $("#box_3_6").click(function () {
+            $("#box_3_6").toggleClass("iteal");
+        });
+
+        $("#box_3_7").click(function () {
+            $("#box_3_7").toggleClass("blue");
+        });
+
+        $("#box_3_8").click(function () {
+            $("#box_3_8").toggleClass("navy");
+        });
+        // row 4
+
+        $("#box_4_1").click(function () {
+            $("#box_4_1").toggleClass("white");
+        });
+
+        $("#box_4_2").click(function () {
+            $("#box_4_2").toggleClass("silver");
+        });
+
+        $("#box_4_3").click(function () {
+            $("#box_4_3").toggleClass("grey");
+        });
+
+        $("#box_4_4").click(function () {
+            $("#box_4_4").toggleClass("black");
+        });
+
+        $("#box_4_5").click(function () {
+            $("#box_4_5").toggleClass("wheat");
+        });
+
+        $("#box_4_6").click(function () {
+            $("#box_4_6").toggleClass("tan");
+        });
+
+        $("#box_4_7").click(function () {
+            $("#box_4_7").toggleClass("chocolate");
+        });
+
+        $("#box_4_8").click(function () {
+            $("#box_4_8").toggleClass("saddlebrown");
+        });
+
+
+      });
+    </script>
+  </body>
+</html>

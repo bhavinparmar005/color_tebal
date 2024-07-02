@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.frist_row {
+  width: 100%;
+  height: auto;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.box {
+  width: 178px;
+  height: 163px;
+  border: 4px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #f3e2e2f3;
+  border-radius: 20px;
+}
+::selection {
+  background-color: #ce2222;
+  color: rgba(240, 231, 231, 0.749);
+}
+
+/* row 1 */
+.ivory{
+    background-color: #FFFFF0;
+}
+.yellow{
+    background-color: #FFFF00;
+}
+.gold{
+    background-color: #FFD700;
+}
+.orange{
+    background-color: #FFA500;
+}
+.coral{
+    background-color: #FF7F50;
+}
+.tometo{
+    background-color: #FF6347;
+}
+.red{
+    background-color: #FF0000;  
+}
+.maroon{
+    background-color: #800000;
+}
+
+
+/* row 2 */
+.lovender{
+    background-color: #E6E6FA;
+}
+.pink{
+    background-color: #FFC0CB;
+}
+.deep_pink{
+    background-color: #FF1493;
+}
+
+.plum{
+    background-color: #DDA0DD;
+}
+
+.violet{
+    background-color: #EE82EE;
+}
+
+.fuchasia{
+    background-color: #FF00FF;    
+}
+
+.purple{
+    background-color: #800080;
+}
+.indigo{
+    background-color: #4B0082;
+}
+
+/* row 3*/
+
+.lime{
+    background-color: #00FF00;
+}
+.green{
+    background-color: #008000;
+}
+
+.olive{
+    background-color: #808000;
+}
+
+.aqua{
+    background-color: #00FFFF;
+}
+.skyblue{
+    background-color: #87CEEB;
+}
+
+.iteal{
+    background-color: #008080;    
+}
+.blue{
+    background-color: #0000FF;
+}
+
+.navy{
+    background-color: #000080;    
+}
+
+/* row 4*/
+.white{
+    background-color: #FFFFFF;
+}
+.silver{
+    background-color: #C0C0C0;    
+}
+
+.grey{
+    background-color: #808080;
+}
+
+.black{
+    background: #000000;
+}
+.wheat{
+    background-color: #F5DEB3;
+}
+.tan{
+    background-color: #D2B48C;
+}
+.chocolate{
+    background-color: #D2691E;
+}
+.saddlebrown{
+    background-color: #8B4513;
+}
+
+@media only screen and (max-width:427px){
+    
+    .frist_row{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+    .box{
+        width: 90%;
+        height: 337px;
+        margin-top: 20px;
+    }
+}
