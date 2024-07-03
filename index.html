@@ -10,10 +10,10 @@
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
-
-    <h1>  click to color change </h1>
+    <h1>click to color change and <br> dubble click to copiy color</h1>
     <div class="frist_row">
       <div class="box" id="box_1">ivory</div>
       <div class="box" id="box_2">yellow</div>
@@ -47,149 +47,355 @@
       <div class="box" id="box_3_8">navy</div>
     </div>
     <div class="frist_row">
-      <div class="box" id="box_4_1">white</div>
-      <div class="box" id="box_4_2">silver</div>
-      <div class="box" id="box_4_3">grey</div>
-      <div class="box" id="box_4_4">black</div>
-      <div class="box" id="box_4_5">wheat</div>
-      <div class="box" id="box_4_6">tan</div>
-      <div class="box" id="box_4_7">chocolate</div>
-      <div class="box" id="box_4_8">saddlebrown</div>
+      <div class="box" id="box_4_1">white
+        <p class="code_4_1">#FFFFFF</p>
+      </div>
+      <div class="box" id="box_4_2">silver
+        <p class="code_4_2">#C0C0C0</p>
+      </div>
+      <div class="box" id="box_4_3">grey
+        <p class="code_4_3">#808080</p>
+      </div>
+      <div class="box" id="box_4_4">black
+        <p class="code_4_4">#000000</p>
+      </div>
+      <div class="box" id="box_4_5">wheat
+        <p class="code_4_6">#F5DEB3</p>
+      </div>
+      <div class="box" id="box_4_6">tan
+        <p class="code_4_6">#D2B48C</p>
+      </div>
+      <div class="box" id="box_4_7">chocolate
+        <p class="code_4_7">#D2691E</p>
+      </div>
+      <div class="box" id="box_4_8">
+        saddlebrown
+
+        <p class="code_4_8">#8B4513</p>
+      </div>
     </div>
 
     <script>
       // jQuery
       $(document).ready(function () {
-
         // row 1
         $("#box_1").click(function () {
-            $("#box_1").toggleClass("ivory");
+          $("#box_1").toggleClass("ivory");
         });
 
         $("#box_2").click(function () {
-            $("#box_2").toggleClass("yellow");
+          $("#box_2").toggleClass("yellow");
         });
 
         $("#box_3").click(function () {
-            $("#box_3").toggleClass("gold");
+          $("#box_3").toggleClass("gold");
         });
 
         $("#box_4").click(function () {
-            $("#box_4").toggleClass("orange");
+          $("#box_4").toggleClass("orange");
         });
 
         $("#box_5").click(function () {
-            $("#box_5").toggleClass("coral");
+          $("#box_5").toggleClass("coral");
         });
 
         $("#box_6").click(function () {
-            $("#box_6").toggleClass("tometo");
+          $("#box_6").toggleClass("tometo");
         });
         $("#box_7").click(function () {
-            $("#box_7").toggleClass("red");
+          $("#box_7").toggleClass("red");
         });
         $("#box_8").click(function () {
-            $("#box_8").toggleClass("maroon");
+          $("#box_8").toggleClass("maroon");
         });
-        
-        
 
-        
-
-        
         // row 2
 
         $("#box_2_1").click(function () {
-            $("#box_2_1").toggleClass("lovender");
+          $("#box_2_1").toggleClass("lovender");
         });
         $("#box_2_2").click(function () {
-            $("#box_2_2").toggleClass("pink");
+          $("#box_2_2").toggleClass("pink");
         });
         $("#box_2_3").click(function () {
-            $("#box_2_3").toggleClass("deep_pink");
+          $("#box_2_3").toggleClass("deep_pink");
         });
         $("#box_2_4").click(function () {
-            $("#box_2_4").toggleClass("plum");
+          $("#box_2_4").toggleClass("plum");
         });
         $("#box_2_5").click(function () {
-            $("#box_2_5").toggleClass("violet");
+          $("#box_2_5").toggleClass("violet");
         });
-       
+
         $("#box_2_6").click(function () {
-            $("#box_2_6").toggleClass("fuchasia");
+          $("#box_2_6").toggleClass("fuchasia");
         });
         $("#box_2_7").click(function () {
-            $("#box_2_7").toggleClass("purple");
+          $("#box_2_7").toggleClass("purple");
         });
 
         $("#box_2_8").click(function () {
-            $("#box_2_8").toggleClass("indigo");
+          $("#box_2_8").toggleClass("indigo");
         });
         // row 3
         $("#box_3_1").click(function () {
-            $("#box_3_1").toggleClass("lime");
+          $("#box_3_1").toggleClass("lime");
         });
 
         $("#box_3_2").click(function () {
-            $("#box_3_2").toggleClass("green");
+          $("#box_3_2").toggleClass("green");
         });
 
         $("#box_3_3").click(function () {
-            $("#box_3_3").toggleClass("olive");
+          $("#box_3_3").toggleClass("olive");
         });
 
         $("#box_3_4").click(function () {
-            $("#box_3_4").toggleClass("aqua");
+          $("#box_3_4").toggleClass("aqua");
         });
 
         $("#box_3_5").click(function () {
-            $("#box_3_5").toggleClass("skyblue");
+          $("#box_3_5").toggleClass("skyblue");
         });
 
         $("#box_3_6").click(function () {
-            $("#box_3_6").toggleClass("iteal");
+          $("#box_3_6").toggleClass("iteal");
         });
 
         $("#box_3_7").click(function () {
-            $("#box_3_7").toggleClass("blue");
+          $("#box_3_7").toggleClass("blue");
         });
 
         $("#box_3_8").click(function () {
-            $("#box_3_8").toggleClass("navy");
+          $("#box_3_8").toggleClass("navy");
         });
         // row 4
 
         $("#box_4_1").click(function () {
-            $("#box_4_1").toggleClass("white");
+          $("#box_4_1").toggleClass("white");
         });
 
         $("#box_4_2").click(function () {
-            $("#box_4_2").toggleClass("silver");
+          $("#box_4_2").toggleClass("silver");
         });
 
         $("#box_4_3").click(function () {
-            $("#box_4_3").toggleClass("grey");
+          $("#box_4_3").toggleClass("grey");
         });
 
         $("#box_4_4").click(function () {
-            $("#box_4_4").toggleClass("black");
+          $("#box_4_4").toggleClass("black");
         });
 
         $("#box_4_5").click(function () {
-            $("#box_4_5").toggleClass("wheat");
+          $("#box_4_5").toggleClass("wheat");
         });
 
         $("#box_4_6").click(function () {
-            $("#box_4_6").toggleClass("tan");
+          $("#box_4_6").toggleClass("tan");
         });
 
         $("#box_4_7").click(function () {
-            $("#box_4_7").toggleClass("chocolate");
+          $("#box_4_7").toggleClass("chocolate");
         });
 
         $("#box_4_8").click(function () {
-            $("#box_4_8").toggleClass("saddlebrown");
+          $("#box_4_8").toggleClass("saddlebrown");
         });
+        
+         //   color code code 
+           
+        //  box_4_8
+
+        $("#box_4_8").dblclick(function () {
+
+            // sweet alert 
+          Swal.fire({
+            title: "Do you want copiy this color code?",
+            showDenyButton: true,
+            showCancelButton: true,
+            confirmButtonText: "Save",
+            denyButtonText: `Don't save`,
+          }).then((result) => {
+            /* Read more about isConfirmed, isDenied below */
+            if (result.isConfirmed) {
+              Swal.fire("copiy!", "", "success");
+            } else if (result.isDenied) {
+              Swal.fire("Changes are not saved", "", "info");
+            }
+          });
+            // sweet alert end
+          
+       
+
+          let x = $(".code_4_8").text();
+
+          navigator.clipboard.writeText(x);
+        });
+
+
+        // box_4_7
+
+        $("#box_4_7").dblclick(function () {
+
+// sweet alert 
+Swal.fire({
+title: "Do you want copiy this color code?",
+showDenyButton: true,
+showCancelButton: true,
+confirmButtonText: "Save",
+denyButtonText: `Don't save`,
+}).then((result) => {
+/* Read more about isConfirmed, isDenied below */
+if (result.isConfirmed) {
+  Swal.fire("copiy!", "", "success");
+} else if (result.isDenied) {
+  Swal.fire("Changes are not saved", "", "info");
+}
+});
+// sweet alert end
+
+
+
+let x = $(".code_4_7").text();
+
+navigator.clipboard.writeText(x);
+});
+
+// box_4_6
+$("#box_4_6").dblclick(function () {
+
+// sweet alert 
+Swal.fire({
+title: "Do you want copiy this color code?",
+showDenyButton: true,
+showCancelButton: true,
+confirmButtonText: "Save",
+denyButtonText: `Don't save`,
+}).then((result) => {
+/* Read more about isConfirmed, isDenied below */
+if (result.isConfirmed) {
+  Swal.fire("copiy!", "", "success");
+} else if (result.isDenied) {
+  Swal.fire("Changes are not saved", "", "info");
+}
+});
+// sweet alert end
+
+
+
+let x = $(".code_4_6").text();
+
+navigator.clipboard.writeText(x);
+});
+
+// box_4_5
+$("#box_4_5").dblclick(function () {
+
+// sweet alert 
+Swal.fire({
+title: "Do you want copiy this color code?",
+showDenyButton: true,
+showCancelButton: true,
+confirmButtonText: "Save",
+denyButtonText: `Don't save`,
+}).then((result) => {
+/* Read more about isConfirmed, isDenied below */
+if (result.isConfirmed) {
+  Swal.fire("copiy!", "", "success");
+} else if (result.isDenied) {
+  Swal.fire("Changes are not saved", "", "info");
+}
+});
+// sweet alert end
+
+
+
+let x = $(".code_4_5").text();
+
+navigator.clipboard.writeText(x);
+});
+// box_4_4
+$("#box_4_4").dblclick(function () {
+
+// sweet alert 
+Swal.fire({
+title: "Do you want copiy this color code?",
+showDenyButton: true,
+showCancelButton: true,
+confirmButtonText: "Save",
+denyButtonText: `Don't save`,
+}).then((result) => {
+/* Read more about isConfirmed, isDenied below */
+if (result.isConfirmed) {
+  Swal.fire("copiy!", "", "success");
+} else if (result.isDenied) {
+  Swal.fire("Changes are not saved", "", "info");
+}
+});
+// sweet alert end
+
+
+
+let x = $(".code_4_4").text();
+
+navigator.clipboard.writeText(x);
+});
+// box_4_2
+$("#box_4_2").dblclick(function () {
+
+// sweet alert 
+Swal.fire({
+title: "Do you want copiy this color code?",
+showDenyButton: true,
+showCancelButton: true,
+confirmButtonText: "Save",
+denyButtonText: `Don't save`,
+}).then((result) => {
+/* Read more about isConfirmed, isDenied below */
+if (result.isConfirmed) {
+  Swal.fire("copiy!", "", "success");
+} else if (result.isDenied) {
+  Swal.fire("Changes are not saved", "", "info");
+}
+});
+// sweet alert end
+
+
+
+let x = $(".code_4_2").text();
+
+navigator.clipboard.writeText(x);
+});
+// box_4_1
+
+$("#box_4_1").dblclick(function () {
+
+// sweet alert 
+Swal.fire({
+title: "Do you want copiy this color code?",
+showDenyButton: true,
+showCancelButton: true,
+confirmButtonText: "Save",
+denyButtonText: `Don't save`,
+}).then((result) => {
+/* Read more about isConfirmed, isDenied below */
+if (result.isConfirmed) {
+  Swal.fire("copiy!", "", "success");
+} else if (result.isDenied) {
+  Swal.fire("Changes are not saved", "", "info");
+}
+});
+// sweet alert end
+
+
+
+let x = $(".code_4_1").text();
+
+navigator.clipboard.writeText(x);
+});
+
+
 
 
       });

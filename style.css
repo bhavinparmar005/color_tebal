@@ -6,7 +6,7 @@
 h1{
     text-align: center;
     padding: 20px;
-    color: #3bd1d1;
+    color: #de5858c5;
 }
 
 .frist_row {
@@ -26,7 +26,7 @@ h1{
   font-weight: bold;
   text-transform: uppercase;
   background-color: #f3e2e2f3;
-  border-radius: 20px;
+  border-radius: 16px;
 }
 ::selection {
   background-color: #ce2222;
@@ -149,6 +149,120 @@ h1{
     background-color: #8B4513;
 }
 
+/* code for color row 1 */
+.code_1_1{
+    display: none;
+}
+.code_1_2{
+    display: none;
+}
+.code_1_3{
+    display: none;
+}
+.code_1_4{
+    display: none;
+}
+.code_1_5{
+    display: none;
+}
+.code_1_6{
+    display: none;
+}
+
+.code_1_7{
+    display: none;
+}
+.code_1_8{
+    display: none;
+}
+
+
+/* code for color row 2 */
+
+.code_2_1{
+    display: none;
+}
+.code_2_2{
+    display: none;
+}
+.code_2_3{
+    display: none;
+}
+.code_2_4{
+    display: none;
+}
+.code_2_5{
+    display: none;
+}
+.code_2_6{
+    display: none;
+}
+
+.code_2_7{
+    display: none;
+}
+.code_2_8{
+    display: none;
+}
+
+
+
+/* code for color row 3 */
+.code_3_1{
+    display: none;
+}
+.code_3_2{
+    display: none;
+}
+.code_3_3{
+    display: none;
+}
+.code_3_4{
+    display: none;
+}
+.code_3_5{
+    display: none;
+}
+.code_3_6{
+    display: none;
+}
+
+.code_3_7{
+    display: none;
+}
+.code_3_8{
+    display: none;
+}
+
+
+/* code for color row 4 */
+.code_4_1{
+    display: none;
+}
+.code_4_2{
+    display: none;
+}
+.code_4_3{
+    display: none;
+}
+.code_4_4{
+    display: none;
+}
+.code_4_5{
+    display: none;
+}
+.code_4_6{
+    display: none;
+}
+
+.code_4_7{
+    display: none;
+}
+.code_4_8{
+    display: none;
+}
+
+
 @media only screen and (max-width:427px){
     
     .frist_row{
@@ -162,9 +276,14 @@ h1{
         width: 90%;
         height: 337px;
         margin-top: 20px;
-       border-radius: 60px;
+        border-radius: 50% 50% 49% 51% / 30% 30% 70% 70% ;
        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
        font-size: 30px;
        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+    h1{
+        font-size: 25px;
+        color: #097923;
+    }
 }
+
